@@ -1,6 +1,9 @@
 public class Main {
+    private static String staticString = "Static String";
+    private String instaceString = "2. Instance String !";
 
     public static void main(String[] args) {
+        Main main = new Main();
         int i = count(10);
         System.out.println("Count complete! Last value of counter: " + i);
 
